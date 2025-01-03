@@ -9,7 +9,7 @@ const OrderScreen = () => {
     const [formData, setFormData] = useState({
         name: '',
         date: '',
-        order: ''
+        order: '',
     });
 
     const handleSubmit = async () => {
